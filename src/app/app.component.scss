@@ -1,34 +1,29 @@
 @import '../variables.scss';
 
 .section-1{
-min-height: 100vh;
+min-height: 80vh;
 background:$secondary;
 margin-top: 2px;
 
 &__info{
-
     &-container{
-        padding: 0 8%;
-
+       margin: 0 auto;
+        width: 80%;
         &-title{
             color: $primary;
-            left: 220px;
+            left: 200px;
             position: absolute; 
             font-size: 1.3rem;
         }
-
-
         &-subtitle{
             color: $tomato;
             font-family: $title;
             font-size: 8rem;
             position: relative;
         }
-
         &-text{
             font-style: italic;
         }
-
         &-button{
             color: white;
             background: $primary;
@@ -38,23 +33,18 @@ margin-top: 2px;
             padding: 20px 65px;
             font-weight: bold;
             text-transform: uppercase;
-
             &:hover{
                 cursor: pointer;
             }
         }
-
-        
-        
     }
 }
 
 &__img{
     background-image: url('../assets/img/banner.jpeg');
     background-size: cover;
+    height: 85vh;
 }
-
-
 }
 
 .section-2{
