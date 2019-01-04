@@ -1,0 +1,15 @@
+@import '../../../variables.scss';
+
+.navbar{
+    background: $secondary;
+    height: 100px;
+
+    &_logo{
+        height: 55px;
+    }
+
+    &_burger {
+        cursor: pointer;
+        color: $primary;
+    }
+}
