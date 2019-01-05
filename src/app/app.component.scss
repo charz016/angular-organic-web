@@ -54,14 +54,92 @@ margin-top: 2px;
 
 
 .section-3{
-    min-height: 100vh;
+    min-height: 80;
     background: $light;
+    &__info{
+        &-container{
+           margin: 0 auto;
+            width: 70%;
+            &-title{
+                color: $primary;
+                font-size: 1.5rem;
+                text-align: center;
+            }
+            &-subtitle{
+                color: $tomato;
+                font-family: $title;
+                font-size: 4rem;
+                
+            }
+            &-text{
+                font-style: italic;
+            }
+            &-button{
+                color: white;
+                background: $tomato;
+                border-style: none;
+                border-radius: 25px;
+                margin: 10px;
+                padding: 18px 40px;
+                font-weight: bold;
+                text-transform: uppercase;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    
+    &__img{
+        background-image: url('../assets/img/banner-2.jpeg');
+        background-size: cover;
+        height: 85vh;
+    }
 }
 
 
 .section-4{
-    min-height: 100vh;
+    min-height: 80vh;
     background: white;
+    &__info{
+        &-container{
+           margin: 0 auto;
+            width: 70%;
+            &-title{
+                color: $primary;
+                font-size: 1.5rem;
+                text-align: center;
+            }
+            &-subtitle{
+                color: $tomato;
+                font-family: $title;
+                font-size: 4rem;
+                
+            }
+            &-text{
+                font-style: italic;
+            }
+            &-button{
+                color: white;
+                background: $tomato;
+                border-style: none;
+                border-radius: 25px;
+                margin: 10px;
+                padding: 18px 40px;
+                font-weight: bold;
+                text-transform: uppercase;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    
+    &__img{
+        background-image: url('../assets/img/banner-3.jpeg');
+        background-size: cover;
+        height: 85vh;
+    }
 }
 
 .section-5{
@@ -71,19 +149,93 @@ margin-top: 2px;
 }
 
 .section-6{
-    min-height: 100vh;
+    min-height: 80vh;
     background: white;
+    &__info{
+        &-container{
+           margin: 0 auto;
+            width: 70%;
+            &-title{
+                color: $primary;
+                font-size: 1.5rem;
+                text-align: center;
+            }
+            &-subtitle{
+                color: $tomato;
+                font-family: $title;
+                font-size: 4rem;
+                
+            }
+            &-text{
+                font-style: italic;
+            }
+            &-button{
+                color: white;
+                background: $tomato;
+                border-style: none;
+                border-radius: 25px;
+                margin: 10px;
+                padding: 18px 40px;
+                font-weight: bold;
+                text-transform: uppercase;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    
+    &__img{
+        background-image: url('../assets/img/banner-4.jpeg');
+        background-size: cover;
+        height: 85vh;
+    }
 
 }
 
 .section-7{
     min-height: 100vh;
     background: $secondary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &-item{
+        margin: 20px;
+        padding: 30px 0;
+        max-width: 360px;
+		height: 368px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        img{
+            width:160px;height: 160px;border-radius: 80%
+        }
+
+        &-title{
+            font-size: 1.5rem;
+            margin: 5px;
+            font-family: $text;
+        }
+
+        &-text{
+            font-size: 1rem;
+            margin: 20px;
+            font-style: italic;
+            font-family: $text;
+            text-align: center;
+        }
+
+    }
 
 }
 
 .section-8{
-    min-height: 100vh;
     background: white;
-
+    &__img{
+        background-image: url("../assets/img/banner-5.jpeg");
+        background-size: cover;
+        height: 450px;
+    }
 }
