@@ -50,6 +50,62 @@ margin-top: 2px;
 .section-2{
     min-height: 100vh;
     background: $primary;
+
+    &__info{
+
+        &-title{
+            color: white;
+            font-size: 3rem;
+            margin-top: 80px;
+        }
+
+        &-text{
+            color: white;
+            text-align: center;
+            font-style: italic;
+        }
+    }
+
+    &__wrap{
+        margin-bottom: 80px;
+        &-card{
+            background: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            &-text{
+                text-align: center;
+                font-style: italic;
+            }
+        }
+
+        &-img{
+            background-position: center center;
+            background-size: cover;
+            &:nth-child(1) {
+                background-image: url(../assets/img/grid-1.jpeg);
+              }
+          
+              &:nth-child(3) {
+                background-image: url(../assets/img/grid-2.jpeg);
+              }
+          
+              &:nth-child(5) {
+                background-image: url(../assets/img/grid-3.jpeg);
+              }
+        }
+
+        &-card,
+        &-img {
+          width: 350px;
+          height: 300px;
+          margin: 20px;
+        }
+
+    }
+
 }
 
 
@@ -144,7 +200,74 @@ margin-top: 2px;
 
 .section-5{
     min-height: 100vh;
-    background: linear-gradient($primary 50%,$light 50%)
+    background: linear-gradient($primary 59%,$light 41%);
+
+    &__info{
+
+        &-title{
+            color: white;
+            font-size: 3rem;
+            margin-top: 80px;
+        }
+
+        &-text{
+            color: white;
+            text-align: center;
+            font-style: italic;
+        }
+    }
+
+    &__wrap{
+        margin-bottom: 80px;
+        &-card{
+            height: 200px;
+            background: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            &-title{
+                color: $primary;
+                font-weight: bold;
+                text-align: start;
+                margin-left: 30px;
+                font-size: 1.2rem;
+            }
+            
+            &-text{
+                text-align: center;
+                font-style: italic;
+              
+            }
+        }
+
+        &-img{
+            background-position: center center;
+            background-size: cover;
+            height: 250px;
+            &:nth-child(5) {
+                background-image: url(../assets/img/grid-4.jpeg);
+              }
+          
+              &:nth-child(6) {
+                background-image: url(../assets/img/grid-5.jpeg);
+              }
+          
+              &:nth-child(7) {
+                background-image: url(../assets/img/grid-6.jpeg);
+              }
+
+              &:nth-child(8) {
+                background-image: url(../assets/img/grid-7.jpeg);
+              }
+        }
+
+        &-card,
+        &-img {
+        margin:0 30px;
+        width: 250px;
+        }
+    }
 
 }
 
@@ -238,4 +361,8 @@ margin-top: 2px;
         background-size: cover;
         height: 450px;
     }
+}
+
+.title-xs{
+    font-size: 2.5rem;
 }
