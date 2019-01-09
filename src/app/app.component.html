@@ -2,39 +2,42 @@
 <nav-bar></nav-bar>
 
 <section class="section-1">
-  <div fxLayout="row" fxLayout.lt-md="column">
-    <div class="section-1__info" fxFlex.lt-md="1 1 auto" fxFlex fxLayoutAlign="center center">
-      <div class="section-1__info-container">
-        <h1 class="section-1__info-container-title">FRESH FOOD</h1>
-        <span class="section-1__info-container-subtitle">Organic</span>
-        <p class="section-1__info-container-text">How your food is grown or raised can
+  <div fxLayout.lt-sm="column" fxLayout="row">
+    <div class="section-1__info" fxFlex="50%" fxFlex.lt-sm="1 1 auto" fxLayoutAlign="center center">
+      <div class="section-1__info-container" fxFlex="70%" fxFlex.lt-md="95%">
+        <h1 class="section-1__info-container-title" ngClass.lt-md="section-1__info-container-title-md">Organic
+          <span class="section-1__info-container-subtitle" ngClass.lt-md="section-1__info-container-subtitle-md">FRESH
+            FOOD</span>
+        </h1>
+        <p class="section-1__info-container-text" ngClass.lt-md="section-1__info-container-text-md">How your food is
+          grown or raised can
           have a major impact on your mental and emotional health as well as the environment.
         </p>
         <button class="section-1__info-container-button">learn more</button>
       </div>
     </div>
-    <div class="section-1__img" fxFlex fxFlex.lt-md="1 1 auto">
+    <div class="section-1__img" fxFlex="50%" fxFlex.lt-sm="1 1 auto">
     </div>
   </div>
 </section>
 
-<div class="section-2">
+<section class="section-2">
   <div fxLayout='column' fxFlexAlign="center">
-    <div class="section-2__info" fxLayout='column' fxLayoutAlign="center center" class="content_work__title" style=" margin: auto; width: 80%; margin-bottom: 50px;">
-      <span class="section-2__info-title">How It Works?</span>
-      <p class="section-2__info-text">
-        Organic agriculture, which is governed by strict government standards, requires that products bearing the
-        organic label
-        are produced without the use of toxic and persistent pesticides and synthetic nitrogen fertilizers,
-        antibiotics,
-        synthetic hormones, genetic engineering or other excluded practices, sewage sludge, or irradiation.
-      </p>
-    </div>
-
     <div class="section-2__wrap" fxLayout="row wrap" fxLayoutAlign="center center">
+      <div class="section-2__wrap-container" fxFlex="80%">
+        <h1 class="section-2__wrap-container-title">
+          How It Works?
+        </h1>
+        <p class="section-2__wrap-container-text">
+          Organic agriculture, which is governed by strict government standards, requires that products bearing the
+          organic label are produced without the use of toxic and persistent pesticides and synthetic nitrogen
+          fertilizers, antibiotics, synthetic hormones, genetic engineering or other excluded practices, sewage sludge,
+          or irradiation.
+        </p>
+      </div>
       <div class="section-2__wrap-img"></div>
       <div class="section-2__wrap-card">
-        <img src="../assets/img/icon-vaca.png" width="50px">
+        <img src="../assets/img/icon-vaca.png">
         <p class="section-2__wrap-card-title">Organic Farming</p>
         <p class="section-2__wrap-card-text">Organic farming practices reduce pollution, conserve water,
           reduce soil erosion, increase soil fertility, and use less energy,
@@ -42,14 +45,14 @@
       </div>
       <div class="section-2__wrap-img"></div>
       <div class="section-2__wrap-card">
-        <img src="../assets/img/icon-hoja.png" width="50px">
+        <img src="../assets/img/icon-hoja.png">
         <p class="section-2__wrap-card-title">Animal husbandry</p>
         <p class="section-2__wrap-card-text">The animal production system, may be broadly classified
           as traditional, conventional and organic with their distinct characteristics.</p>
       </div>
       <div class="section-2__wrap-img"></div>
       <div class="section-2__wrap-card">
-        <img src="../assets/img/icon-tractor.png" width="50px">
+        <img src="../assets/img/icon-tractor.png">
         <p class="section-2__wrap-card-title">Arable Farming</p>
         <p class="section-2__wrap-card-text">Organic foods often have more beneficial nutrients,
           such as antioxidants, than their conventionally-grown counterparts and
@@ -57,16 +60,18 @@
       </div>
     </div>
   </div>
-</div>
+
+</section>
 
 <section class="section-3">
-  <div fxLayout="row" fxLayout.lt-md="column">
-    <div class="section-3__img" fxFlex fxFlex.lt-md="1 1 auto">
+  <div fxLayout.lt-sm="column" fxLayout="row">
+    <div class="section-3__img" fxFlex="50%" fxFlex.lt-sm="1 1 auto">
     </div>
-    <div class="section-3__info" fxFlex.lt-md="1 1 auto" fxFlex fxLayoutAlign="center center">
-      <div class="section-3__info-container">
-        <h1 class="section-3__info-container-title">ORGANIC FARM</h1>
-        <span class="section-3__info-container-subtitle" ngClass.lt-lg=title-xs>Our Promise</span>
+    <div class="section-3__info" fxFlex="50%" fxFlex.lt-sm="1 1 auto" fxLayoutAlign="center center">
+      <div class="section-3__info-container" fxFlex="70%" fxFlex.lt-md="95%">
+        <span class="section-3__info-container-subtitle" ngClass.lt-md="section-3__info-container-subtitle-md"
+          fxLayoutAlign="center">ORGANIC FARM</span>
+        <h1 class="section-3__info-container-title" ngClass.lt-md="section-3__info-container-title-md">Our Promise</h1>
         <p class="section-3__info-container-text">We bring the season’s best mix of organic produce
           and hand-crafted farm products conveniently to your door by growing and partnering
           with local farms and artisans in your area.
@@ -78,11 +83,12 @@
 </section>
 
 <section class="section-4">
-  <div fxLayout="row" fxLayout.lt-md="column">
-    <div class="section-4__info" fxFlex.lt-md="1 1 auto" fxFlex fxLayoutAlign="center center">
-      <div class="section-4__info-container">
-        <h1 class="section-4__info-container-title">HEALTH BENEFITS</h1>
-        <span class="section-4__info-container-subtitle" ngClass.lt-lg=title-xs>Of Organic Food</span>
+  <div fxLayout.lt-sm="column" fxLayout="row">
+    <div class="section-4__info" fxFlex="50%" fxFlex.lt-sm="1 1 auto" fxLayoutAlign="center center">
+      <div class="section-4__info-container" fxFlex="70%" fxFlex.lt-md="95%">
+        <span class="section-4__info-container-subtitle" ngClass.lt-md="section-4__info-container-subtitle-md"
+          fxLayoutAlign="center">HEALTH BENEFITS</span>
+        <h1 class="section-4__info-container-title" ngClass.lt-md="section-4__info-container-title-md">Of Organic Food</h1>
         <p class="section-4__info-container-text">Organic principles and regulations are also designed
           to ensure that animals are treated humanely, or, to be brutally honest, as humanely as possible.
           There are strict rules on the way in which animals are housed, guaranteeing a degree of comfort
@@ -91,71 +97,69 @@
         <button class="section-4__info-container-button">learn more</button>
       </div>
     </div>
-    <div class="section-4__img" fxFlex fxFlex.lt-md="1 1 auto">
+    <div class="section-4__img" fxFlex="50%" fxFlex.lt-sm="1 1 auto">
     </div>
   </div>
 </section>
 
-<div class="section-5">
-  <div fxLayout='column' fxFlexAlign="center">
-    <div class="section-5__info" fxLayout='column' fxLayoutAlign="center center" class="content_work__title" style=" margin: auto; width: 80%; margin-bottom: 50px;">
-      <span class="section-5__info-title" ngClass.lt-lg=title-xs>About Our Farm</span>
-      <p class="section-5__info-text">
-        Today, at our second-generation family farm, we keep with our parents’ vision by practicing healthy crop
-        rotation,
-        encouraging a diverse ecosystem around the fields, efficiently using local water sources and carefully
-        selecting produce
-        varieties that grow well and taste great.
-      </p>
-    </div>
-
+<section class="section-5">
+  <div fxLayout="column" fxFlexAlign="center">
     <div class="section-5__wrap" fxLayout="row wrap" fxLayoutAlign="center center">
+      <div class="section-5__wrap-container" fxFlex="80%">
+        <h1 class="section-5__wrap-container-title">
+          About Our Farm
+        </h1>
+        <p class="section-5__wrap-container-text">
+          Today, at our second-generation family farm, we keep with our parents’ vision by practicing healthy crop
+          rotation, encouraging a diverse ecosystem around the fields, efficiently using local water sources and
+          carefully selecting produce varieties that grow well and taste great.
+        </p>
+      </div>
 
-      <div class="section-5__wrap-card" ngClass.lt-lg=margin-xs>
+      <div class="section-5__wrap-card" ngClass.lt-lg="margin-xs">
         <p class="section-5__wrap-card-title">VEGETABLES</p>
         <p class="section-5__wrap-card-text">Lorem ipsum dolor sit amet,
           consectetur adipiscing elit</p>
+          <img src="../assets/img/grid-4.jpeg">
       </div>
 
-      <div class="section-5__wrap-card" ngClass.lt-lg=margin-xs>
+      <div class="section-5__wrap-card" ngClass.lt-lg="margin-xs">
         <p class="section-5__wrap-card-title">HOW IT WORKS</p>
         <p class="section-5__wrap-card-text">Lorem ipsum dolor sit amet,
           consectetur adipiscing elit </p>
+          <img src="../assets/img/grid-5.jpeg">
       </div>
 
-      <div class="section-5__wrap-card" ngClass.lt-lg=margin-xs>
+      <div class="section-5__wrap-card" ngClass.lt-lg="margin-xs">
         <p class="section-5__wrap-card-title">FLEXIBILITY</p>
         <p class="section-5__wrap-card-text">Lorem ipsum dolor sit amet,
           consectetur adipiscing elit </p>
+          <img src="../assets/img/grid-6.jpeg">
       </div>
 
-      <div class="section-5__wrap-card" ngClass.lt-lg=margin-xs>
+      <div class="section-5__wrap-card" ngClass.lt-lg="margin-xs">
         <p class="section-5__wrap-card-title">Arable Farming</p>
         <p class="section-5__wrap-card-text">Lorem ipsum dolor sit amet,
           consectetur adipiscing elit </p>
+          <img src="../assets/img/grid-7.jpeg">
       </div>
 
-      <div class="section-5__wrap-img" ngClass.lt-lg=margin-xs></div>
-
-      <div class="section-5__wrap-img" ngClass.lt-lg=margin-xs></div>
-
-      <div class="section-5__wrap-img" ngClass.lt-lg=margin-xs></div>
-
-      <div class="section-5__wrap-img" ngClass.lt-lg=margin-xs></div>
+    
 
     </div>
   </div>
 
-</div>
+</section>
 
 <section class="section-6">
-  <div fxLayout="row" fxLayout.lt-md="column">
-    <div class="section-6__img" fxFlex fxFlex.lt-md="1 1 auto">
+  <div fxLayout.lt-sm="column" fxLayout="row">
+    <div class="section-6__img" fxFlex="50%" fxFlex.lt-sm="1 1 auto">
     </div>
-    <div class="section-6__info" fxFlex.lt-md="1 1 auto" fxFlex fxLayoutAlign="center center">
-      <div class="section-6__info-container">
-        <h1 class="section-6__info-container-title">HAPPY FARMING</h1>
-        <span class="section-6__info-container-subtitle" ngClass.lt-lg=title-xs>Happy Animals</span>
+    <div class="section-6__info" fxFlex="50%" fxFlex.lt-sm="1 1 auto" fxLayoutAlign="center center">
+      <div class="section-6__info-container" fxFlex="70%" fxFlex.lt-md="95%">
+        <span class="section-6__info-container-subtitle" ngClass.lt-md="section-6__info-container-subtitle-md"
+          fxLayoutAlign="center">HAPPY FARMING</span>
+        <h1 class="section-6__info-container-title" ngClass.lt-md="section-6__info-container-title-md">Happy Animals</h1>
         <p class="section-6__info-container-text">The idea that happier farm animals produce higher
           quality food is not new, and it seems to be catching on. Several small scale egg farmers have
           transitioned to a “pastured” system, allowing their chickens to roam freely to eat grass and bugs the way
@@ -170,7 +174,8 @@
 </section>
 
 <section class="section-7">
-  <div class="section-7-container__card" fxLayout="row wrap" fxLayout.lt-sm="column" fxLayoutAlign="center center">
+    <div fxLayout="column" fxFlexAlign="center">
+  <div class="section-7-container__card" fxLayout="row wrap" fxLayoutAlign="center center">
     <div class="section-7-item">
       <img src="../assets/img/types-1.jpeg">
       <p class="section-7-item-title">Fresh Fruits</p>
@@ -196,14 +201,13 @@
       </p>
     </div>
   </div>
+  </div>
 </section>
 
 <section class="section-8">
   <div fxLayout="row" fxLayout.lt-md="column">
-    <div fxFlex fxFlex.lt-md="1 1 auto">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7098.94326104394!2d78.0430654485247!3d27.172909818538997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1385710909804"
-        width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
+    <iframe fxFlex fxFlex.lt-md="1 1 auto" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7098.94326104394!2d78.0430654485247!3d27.172909818538997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1385710909804"
+      width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
     <div class="section-8__img" fxFlex fxFlex.lt-md="1 1 auto">
     </div>
   </div>
